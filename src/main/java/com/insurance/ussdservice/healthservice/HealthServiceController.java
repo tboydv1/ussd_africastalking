@@ -20,7 +20,7 @@ public class HealthServiceController {
         }
         else if(text == ""){
 
-            return "END it works";
+            return "END funmi hello";
         }
         return "CON Choose account information you want to view";
     }
