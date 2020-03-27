@@ -18,6 +18,10 @@ public class HealthServiceController {
 
             return "END Choose account information you want to view";
         }
+        else if(text == ""){
+
+            return "END it works";
+        }
         return "CON Choose account information you want to view";
     }
 }
