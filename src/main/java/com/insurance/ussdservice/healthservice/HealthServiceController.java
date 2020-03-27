@@ -11,7 +11,7 @@ public class HealthServiceController {
 
     private String sessionId;
 
-    @PostMapping("https://ussdhealthapp.herokuapp.com/")
+    @PostMapping("/")
     public String ussdService(@RequestParam String sessionId, @RequestParam String text) {
 
         if (text == "1") {
